@@ -1,6 +1,6 @@
-# 🚒 Online Fire Reporting System (OFRS)
+# 🚒 Online Fire Reporting System (OFRS) #
 
-> **A Smart Emergency Response & Fire Incident Management Platform**
+**A Smart Emergency Response & Fire Incident Management Platform**
 
 The **Online Fire Reporting System (OFRS)** is a full-stack web application designed to modernize traditional fire emergency reporting and management. By replacing slow, paper-based workflows with a secure digital platform, OFRS significantly reduces response times and enhances coordination between citizens and emergency response teams.
 
