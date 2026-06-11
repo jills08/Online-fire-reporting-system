@@ -1,6 +1,6 @@
-# 🚒 Online Fire Reporting System (OFRS) #
+# 🚒 Online Fire Reporting System (OFRS)
 
-**A Smart Emergency Response & Fire Incident Management Platform**
+> **A Smart Emergency Response & Fire Incident Management Platform**
 
 The **Online Fire Reporting System (OFRS)** is a full-stack web application designed to modernize traditional fire emergency reporting and management. By replacing slow, paper-based workflows with a secure digital platform, OFRS significantly reduces response times and enhances coordination between citizens and emergency response teams.
 
@@ -8,81 +8,68 @@ Built with a **dual-module architecture**, the system seamlessly connects the pu
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
 ## 📍 Live Location Detection & Interactive Mapping
 
 ### 🌍 Automatic GPS Location Capture
-
-* Detects the user's current location.
-* Automatically populates latitude and longitude coordinates.
-* Reduces manual entry errors for faster dispatch.
+- Automatically detects the user's location.
+- Captures accurate latitude and longitude coordinates.
+- Reduces manual input for faster emergency dispatch.
 
 ### 🗺️ Interactive Map Integration
-
-* Powered by **Leaflet.js** and **OpenStreetMap**.
-* Displays incident locations dynamically.
-* Helps administrators visualize and coordinate emergency responses.
+- Powered by **Leaflet.js** and **OpenStreetMap**.
+- Displays incident locations dynamically.
+- Enhances situational awareness for administrators.
 
 ---
 
 ## 📊 Real-Time Analytics Dashboard
 
-### 📈 Smart Data Visualization
+### 📈 Interactive Data Visualization
+Powered by **Chart.js**, the dashboard provides:
+- 📡 Radar Charts for threat severity analysis.
+- 📉 Line Charts for incident trends.
+- 📊 Dynamic graphical reports.
 
-The admin dashboard includes interactive analytics powered by **Chart.js**, featuring:
-
-* 📡 Radar Charts for threat severity analysis.
-* 📉 Line Charts for tracking incident trends over time.
-* 📊 Dynamic graphical reporting.
-
-### ⚡ Dashboard Summary Cards
-
-Quick overview panels displaying:
-
-* Total Reports
-* Pending Cases
-* Active Dispatches
-* Completed Operations
+### ⚡ Quick Summary Cards
+Instant overview of:
+- Total Reports
+- Pending Cases
+- Active Dispatches
+- Completed Operations
 
 ---
 
 ## 📰 Live Fire News Feed
 
-Stay informed with real-time fire-related news updates using News API integration.
-
-### Benefits:
-
-* Current regional incidents.
-* Safety updates.
-* Disaster awareness.
-* Additional situational context.
+Integrated News API provides:
+- Regional fire incidents
+- Safety alerts
+- Emergency updates
+- Disaster awareness information
 
 ---
 
 ## 👥 User & Admin Management
 
-### 🧑 Public User Portal
+### 🧑 User Portal
 
-A simple reporting interface allowing users to submit fire incidents in under a minute.
+Users can quickly submit incidents by providing:
+- Full Name
+- Contact Number
+- Exact Location
+- Fire Severity
+- Additional Details
 
-Users can provide:
+### 🔐 Admin Portal
 
-* Full Name
-* Contact Number
-* Exact Location
-* Fire Severity
-* Additional Details
-
-### 🔐 Secure Admin Command Center
-
-A protected administration panel featuring:
-
-* Authentication & Session Management
-* Incident Monitoring
-* Report Management
-* Team Allocation
-* Dashboard Analytics
+Secure administrative dashboard featuring:
+- Authentication
+- Session Management
+- Report Monitoring
+- Team Allocation
+- Analytics Dashboard
 
 ---
 
@@ -90,11 +77,9 @@ A protected administration panel featuring:
 
 ### 🎫 Unique Tracking ID
 
-Every submitted report receives a unique tracking number.
+Every fire report receives a unique tracking number.
 
-### 🔄 Status Workflow
-
-Reports progress through multiple operational stages:
+### 🔄 Report Workflow
 
 ```
 🆕 New
@@ -106,117 +91,100 @@ Reports progress through multiple operational stages:
 ✅ Completed
 ```
 
-### 📝 Automated Audit Logging
+### 📝 Audit Logging
 
-Every status update is automatically recorded in:
+Every status update is automatically stored in:
+- `tblfiretequesthistory`
+- `tbl_audit_logs`
 
-* `tblfiretequesthistory`
-* `tbl_audit_logs`
-
-This creates a complete historical timeline for accountability and forensic tracking.
+Providing complete incident history tracking.
 
 ---
 
 ## 🚒 Fire Response Team Management
 
-Administrators can efficiently manage emergency response units with full CRUD functionality.
+Administrators can:
 
-### Features:
+- ✅ Create Teams
+- ✅ Assign Team Leaders
+- ✅ Manage Team Members
+- ✅ Allocate Fire Zones
+- ✅ Update Team Details
+- ✅ Delete Teams
 
-✅ Create Teams
-
-✅ Assign Team Leaders
-
-✅ Manage Team Members
-
-✅ Allocate Active Fire Zones
-
-✅ Update Team Details
-
-✅ Remove Teams
-
-Example:
-
-* Team Alpha
-* Team Bravo
-* Team Charlie
+Example Teams:
+- Team Alpha
+- Team Bravo
+- Team Charlie
 
 ---
 
-## 🚨 Fire Safety & Emergency Resources
+## 🚨 Safety Rules & Emergency Contacts
 
-### 🛡️ Public Safety Awareness
+### 🛡️ Fire Safety Awareness
 
-The platform provides educational guidance for emergency preparedness, including:
+Includes:
+- P.A.S.S Fire Extinguisher Method
+- Evacuation Guidelines
+- Fire Prevention Tips
+- Hazard Awareness
 
-* Fire extinguisher usage (P.A.S.S Method)
-* Evacuation procedures
-* Fire prevention tips
-* Hazard awareness
+### ☎️ Emergency Numbers
 
-### ☎️ Emergency Contact Directory
-
-Quick access to essential emergency numbers:
-
-| Service              | Number  |
-| -------------------- | ------- |
-| 🚒 Fire Brigade      | **101** |
-| 🚑 Ambulance         | **108** |
+| Service | Number |
+|---------|----------|
+| 🚒 Fire Brigade | **101** |
 | 🚨 General Emergency | **112** |
+| 🚑 Ambulance | **108** |
 
 ---
 
-# 🛠️ Technology Stack
+# 🛠️ Tech Stack
 
 ## 🎨 Frontend
-
-* HTML5
-* CSS3
-* JavaScript (ES6)
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
 ## ⚙️ Backend
-
-* PHP 8.x
-* PDO
-* MySQLi
+- PHP 8.x
+- PDO
+- MySQLi
 
 ## 🗄️ Database
-
-* MySQL
-* MariaDB
+- MySQL
+- MariaDB
 
 ## 🌍 APIs & Libraries
-
-* Leaflet.js
-* OpenStreetMap
-* Chart.js
-* News API
+- Leaflet.js
+- OpenStreetMap
+- Chart.js
+- News API
 
 ## 💻 Development Environment
-
-* XAMPP
-* Apache Server
-* VS Code
+- XAMPP
+- Apache Server
+- Visual Studio Code
 
 ---
 
 # 🗃️ Database Architecture
 
-The application operates using five primary relational tables:
+The system uses five primary tables:
 
-| Table                   | Purpose                                    |
-| ----------------------- | ------------------------------------------ |
-| `tbladmin`              | Admin authentication and profiles          |
-| `tblfirereport`         | Fire incident reports and geolocation data |
-| `tblfiretequesthistory` | Incident status history                    |
-| `tblteams`              | Fire response team management              |
-| `tblsite`               | Global site configuration                  |
+| Table | Description |
+|--------|-------------|
+| `tbladmin` | Admin authentication and profiles |
+| `tblfirereport` | Fire incident records and geolocation |
+| `tblfiretequesthistory` | Incident status history |
+| `tblteams` | Fire response teams |
+| `tblsite` | Global site configuration |
 
 ---
 
-# ⚙️ Installation Guide
+# ⚙️ Installation
 
-## 1️⃣ Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/jills08/Online-fire-reporting-system.git
@@ -224,9 +192,9 @@ git clone https://github.com/jills08/Online-fire-reporting-system.git
 
 ---
 
-## 2️⃣ Move Project Files
+## 2. Move Project Files
 
-Copy the project folder to your local server directory:
+Place the project folder inside:
 
 ```
 C:\xampp\htdocs\
@@ -234,14 +202,15 @@ C:\xampp\htdocs\
 
 ---
 
-## 3️⃣ Configure the Database
+## 3. Configure Database
 
 ### Start Services
 
-Open XAMPP and start:
+Start:
+- Apache
+- MySQL
 
-* Apache
-* MySQL
+using XAMPP Control Panel.
 
 ### Open phpMyAdmin
 
@@ -257,57 +226,56 @@ ofrsdb
 
 ### Import SQL File
 
-Import the provided `.sql` file from the project's database folder.
+Import the provided `.sql` file from the project database folder.
 
 ---
 
-## 4️⃣ Run the Application
+## 4. Run the Application
 
-Open your browser:
+Open:
 
 ```
 http://localhost/Online-fire-reporting-system
 ```
 
-Login to the Admin Dashboard using the configured administrator credentials.
+Login to the Admin Dashboard using administrator credentials.
 
 ---
 
 # 🎯 Core Functionalities
 
 ## User Module
-
-* Submit fire reports
-* Auto location detection
-* Track incident status
-* Access safety guidelines
-* View emergency contacts
-* Read live fire news
+- Submit Fire Reports
+- Auto Location Detection
+- Track Incident Status
+- View Fire Safety Guidelines
+- Access Emergency Numbers
+- Read Live Fire News
 
 ## Admin Module
-
-* Secure authentication
-* Manage reports
-* Update incident status
-* Allocate response teams
-* View analytics dashboard
-* Maintain audit logs
-* Manage platform settings
+- Secure Login
+- Manage Reports
+- Update Incident Status
+- Allocate Fire Teams
+- Dashboard Analytics
+- Audit Logging
+- Site Management
 
 ---
 
 # 🚀 Future Enhancements
 
-Potential improvements include:
+Potential upgrades:
 
-* 📱 Progressive Web App (PWA)
-* 🔔 SMS & Email Notifications
-* 📸 Photo & Video Evidence Upload
-* 🤖 AI-Based Fire Severity Prediction
-* 🚁 Real-Time Vehicle Tracking
-* 🌐 Multi-Language Support
-* 📍 Google Maps Integration
-* ☁️ Cloud Deployment
+- 📱 Progressive Web App (PWA)
+- 🔔 SMS Notifications
+- 📧 Email Alerts
+- 📸 Image & Video Uploads
+- 🤖 AI Fire Severity Prediction
+- 🚁 Live Vehicle Tracking
+- 🌐 Multi-language Support
+- 📍 Google Maps Integration
+- ☁️ Cloud Deployment
 
 ---
 
@@ -316,19 +284,18 @@ Potential improvements include:
 Contributions are welcome!
 
 You can:
-
-* 🍴 Fork the repository
-* 🐛 Report bugs
-* ✨ Suggest features
-* 🔧 Submit pull requests
+- 🍴 Fork the repository
+- 🐛 Report issues
+- ✨ Suggest new features
+- 🔧 Submit pull requests
 
 ---
 
 # 📜 License
 
-This project was developed for **public safety management and educational purposes**.
+This project is developed for **public safety management and educational purposes**.
 
-Feel free to use, modify, and contribute to further enhance emergency response systems and community safety.
+Feel free to use, modify, and contribute to improve emergency response systems.
 
 ---
 
@@ -336,8 +303,8 @@ Feel free to use, modify, and contribute to further enhance emergency response s
 
 ## 🚒 Every Second Counts. Every Report Matters.
 
-**Building smarter emergency response systems through technology.**
+### Building smarter emergency response systems through technology.
 
-⭐ If you found this project useful, consider giving it a star!
+⭐ **If you found this project useful, don't forget to Star the repository!**
 
 </div>
