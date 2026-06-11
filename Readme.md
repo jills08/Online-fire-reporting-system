@@ -296,7 +296,19 @@ You can:
 This project is developed for **public safety management and educational purposes**.
 
 Feel free to use, modify, and contribute to improve emergency response systems.
-
+<div align="center">
+<img width="1877" height="908" alt="Screenshot 2026-04-07 045133" src="https://github.com/user-attachments/assets/5c9592ee-1963-4761-94d0-9dae9ef25921" /> 
+<img width="1919" height="898" alt="Screenshot 2026-04-07 045149" src="https://github.com/user-attachments/assets/7082708d-338e-4d60-ace8-ebe02c4fab3b" />
+<img width="1266" height="896" alt="Screenshot 2026-04-07 045229" src="https://github.com/user-attachments/assets/d8df7579-04e2-46f0-a8dc-57dcf52f19e7" />
+<img width="1312" height="908" alt="Screenshot 2026-04-07 045303" src="https://github.com/user-attachments/assets/422ebdb2-c06a-44e4-a5db-cbe4ded84683" />
+<img width="602" height="605" alt="Screenshot 2026-04-07 045315" src="https://github.com/user-attachments/assets/3eff322d-153d-4ecb-a352-990bf8d69f0f" />
+<img width="487" height="683" alt="Screenshot 2026-04-07 033813" src="https://github.com/user-attachments/assets/4b852dca-6d5b-4d55-83a5-9d6133befca4" />
+<img width="630" height="660" alt="Screenshot 2026-04-07 045347" src="https://github.com/user-attachments/assets/33139080-7cf2-4ff6-ae11-bb6adf0c4214" />
+<img width="1919" height="897" alt="Screenshot 2026-04-07 050700" src="https://github.com/user-attachments/assets/b39a082d-9efe-4137-9ba3-59241ba2da10" />
+<img width="1423" height="507" alt="Screenshot 2026-04-07 050727" src="https://github.com/user-attachments/assets/cb900a9a-2cbb-4613-944b-9a1f538ff257" />
+<img width="649" height="678" alt="Screenshot 2026-04-07 050740" src="https://github.com/user-attachments/assets/215833db-af3a-48f8-9575-8099a2e44980" />
+<img width="1594" height="755" alt="Screenshot 2026-04-07 050804" src="https://github.com/user-attachments/assets/0873f49d-7d49-4b97-9525-2ad0fcfd4c4c" />
+</div>
 ---
 
 <div align="center">
